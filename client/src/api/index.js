@@ -3,7 +3,7 @@ import axios from 'axios'
 const API = axios.create({ baseURL: 'http://localhost:5000' })
 
 API.interceptors.request.use((req) => {
-  console.log(req, '---req--1---')
+  console.log(req, '---req-----')
 
   const userInfo = JSON.parse(localStorage.getItem('userInfo'))
   if (userInfo?.token) {
