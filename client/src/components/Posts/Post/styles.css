@@ -1,0 +1,10 @@
+.tools {
+  display: flex;
+  align-items: center;
+}
+.like {
+  font-size: 14px;
+  color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  cursor: pointer;
+}
